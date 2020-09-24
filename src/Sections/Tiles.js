@@ -5,13 +5,13 @@ import "../css/Tiles.css";
 const Tiles = () => {
   return (
     <div class="tiles">
-      <div>
-        <div></div>
-        <div></div>
+      <div className="row">
+        <div className="box-image"></div>
+        <div className="box-content"></div>
       </div>
-      <div>
-        <div></div>
-        <div></div>
+      <div className="row">
+        <div className="box-content"></div>
+        <div className="box-image"></div>
       </div>
     </div>
   );

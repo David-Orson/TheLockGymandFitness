@@ -1,0 +1,19 @@
+.tiles {
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.box-image {
+  background: #9ba6b3;
+  width: 50%;
+  height: 300px;
+}
+
+.box-content {
+  background: white;
+  width: 50%;
+  height: 300px;
+}
