@@ -1,5 +1,7 @@
 .hero {
   background: #0374ff;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .hero-image {

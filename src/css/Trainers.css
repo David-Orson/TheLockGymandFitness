@@ -1,4 +1,14 @@
 .trainers {
-  height: 700px;
   background: #0374ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.trainer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
