@@ -1,7 +1,16 @@
 .about {
-  height: 200px;
   background: #0374ff;
+
+  padding: 10px 10px 40px 10px;
 
   color: white;
   text-align: center;
+}
+
+.content {
+  width: 60%;
+  text-align: left;
+  padding: 10px;
+
+  border-left: 2px solid yellow;
 }
