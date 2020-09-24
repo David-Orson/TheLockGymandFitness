@@ -1,0 +1,12 @@
+.topline {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background: #0374ff;
+  height: 80px;
+  padding: 10px;
+}
+
+.logo {
+  color: white;
+}
