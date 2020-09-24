@@ -13,7 +13,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div id="top">
       <Topline />
       <Hero />
       <About />

@@ -1,12 +1,22 @@
 .topline {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: left;
   align-items: center;
-  background: #0374ff;
+  background: white;
   height: 80px;
   padding: 10px;
+  box-shadow: 0px 8px 3px #0374ff;
 }
 
 .logo {
-  color: white;
+  width: 200px;
+  color: black;
+}
+
+.links {
+  width: 80%;
+  display: flex;
+  justify-content: center;
 }
