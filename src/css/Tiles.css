@@ -12,6 +12,7 @@
   background: #9ba6b3;
   width: 50%;
   height: 300px;
+  overflow: hidden;
 }
 
 .box-content {
@@ -28,4 +29,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.tile-image {
+  width: 100%;
+  margin-top: -120px;
 }

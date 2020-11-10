@@ -6,7 +6,6 @@ import About from "./Sections/About";
 import Tiles from "./Sections/Tiles";
 import Trainers from "./Sections/Trainers";
 import Gallery from "./Sections/Gallery";
-
 import Footer from "./Sections/Footer";
 
 import "./App.css";

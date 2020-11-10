@@ -1,12 +1,19 @@
 import React from "react";
 
+import Barbell from "../Assets/Barbell.jpg";
+import Machines from "../Assets/WeightMachines.jpg";
+import Cardio from "../Assets/Cardio.jpg";
+import Sunbed from "../Assets/Sunbed.jpg";
+
 import "../css/Tiles.css";
 
 const Tiles = () => {
   return (
     <div class="tiles">
       <div className="row">
-        <div className="box-image"></div>
+        <div className="box-image">
+          <img src={Barbell} className="tile-image" alt="Free Weights" />
+        </div>
         <div className="box-content">
           <h2>Free Weights</h2>
           <div className="text-container">
@@ -37,10 +44,14 @@ const Tiles = () => {
             </p>
           </div>
         </div>
-        <div className="box-image"></div>
+        <div className="box-image">
+          <img src={Machines} className="tile-image" alt="Weight Machines" />
+        </div>
       </div>
       <div className="row">
-        <div className="box-image"></div>
+        <div className="box-image">
+          <img src={Cardio} className="tile-image" alt="Cardio Machines" />
+          </div>
         <div className="box-content">
           <h2>Cardio Machines</h2>
           <div className="text-container">
@@ -61,7 +72,9 @@ const Tiles = () => {
             </p>
           </div>
         </div>
-        <div className="box-image"></div>
+        <div className="box-image">
+        <img src={Sunbed} className="tile-image" alt="Sunbeds" />
+        </div>
       </div>
     </div>
   );
