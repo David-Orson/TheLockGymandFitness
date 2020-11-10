@@ -1,13 +1,14 @@
 import React from "react";
 
-import img from "../Assets/unnamed.jpg";
-
 import "../css/Card.css";
 
 const Card = (props) => {
   return (
     <div className="card">
-      <img className="pfp" src={img} />
+      <div className="card-image--container">
+        <img className={props.css} src={props.img} />
+      </div>
+    
       <h4>{props.name}</h4>
       <p>{props.body}</p>
     </div>
