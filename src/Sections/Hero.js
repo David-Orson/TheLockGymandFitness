@@ -8,7 +8,6 @@ import "../css/Hero.css";
 
 const Hero = () => {
   const [imageRender, setImageRender] = useState(1);
-  const [animateState, setAnimateState] = useState(1);
 
   useEffect(() => {
     if(imageRender === 1) {

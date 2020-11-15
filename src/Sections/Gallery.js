@@ -2,22 +2,25 @@ import React, { useState } from "react";
 
 import "../css/Gallery.css";
 
-import Gallery1 from "../Assets/Gallery1.jpg"
-import Gallery2 from "../Assets/Gallery2.jpg"
-import Gallery3 from "../Assets/Gallery3.jpg"
-import Gallery4 from "../Assets/Gallery4.jpg"
-import Gallery5 from "../Assets/Gallery5.jpg"
-import Gallery6 from "../Assets/Gallery6.jpg"
-import Gallery7 from "../Assets/Gallery7.jpg"
-import Gallery8 from "../Assets/Gallery8.jpg"
-import Gallery9 from "../Assets/Gallery9.jpg"
-import Gallery10 from "../Assets/Gallery10.jpg"
-import Gallery11 from "../Assets/Gallery11.jpg"
-import Gallery12 from "../Assets/Gallery12.jpg"
-import Gallery13 from "../Assets/Gallery13.jpg"
-import Gallery14 from "../Assets/Gallery14.jpg"
-import Gallery15 from "../Assets/Gallery15.jpg"
-import Gallery16 from "../Assets/Gallery16.jpg"
+import Gallery1 from "../Assets/Gallery1.jpg";
+import Gallery2 from "../Assets/Gallery2.jpg";
+import Gallery3 from "../Assets/Gallery3.jpg";
+import Gallery4 from "../Assets/Gallery4.jpg";
+import Gallery5 from "../Assets/Gallery5.jpg";
+import Gallery6 from "../Assets/Gallery6.jpg";
+import Gallery7 from "../Assets/Gallery7.jpg";
+import Gallery8 from "../Assets/Gallery8.jpg";
+import Gallery9 from "../Assets/Gallery9.jpg";
+import Gallery10 from "../Assets/Gallery10.jpg";
+import Gallery11 from "../Assets/Gallery11.jpg";
+import Gallery12 from "../Assets/Gallery12.jpg";
+import Gallery13 from "../Assets/Gallery13.jpg";
+import Gallery14 from "../Assets/Gallery14.jpg";
+import Gallery15 from "../Assets/Gallery15.jpg";
+import Gallery16 from "../Assets/Gallery16.jpg";
+
+import Next from "../Assets/Icons/RightArrow.png";
+import Prev from "../Assets/Icons/LeftArrow.png";
 
 
 const Gallery = () => {
@@ -47,8 +50,8 @@ const Gallery = () => {
       <div className="container">
         <div className="photo-container">
           <div className="dummy">
-            <div className="left-arrow" onClick={prevImage}>{"<"}</div>
-            <div className="right-arrow" onClick={nextImage}>{">"}</div>
+            <img src={Prev} className="left-arrow" alt="Previous Image" onClick={prevImage} />
+            <img src={Next} className="right-arrow" alt="Next Image" onClick={nextImage} />
             <img src={imageArray[imageSelector]} className="gallery-img" />
             
           </div>
