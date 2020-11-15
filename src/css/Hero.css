@@ -31,3 +31,52 @@
 .hidden {
   opacity: 0%;
 }
+
+.hero-title {
+  position: absolute;
+  top: 40%;
+  left: 19.8%;
+  font-size: 66px;
+
+  text-shadow: 0px 0px 10px black;
+}
+
+.tagline {
+  position: absolute;
+  top: 54%;
+  left: 20%;
+  font-size: 38px;
+
+  text-shadow: 0px 0px 10px black;
+}
+
+.tagline2 {
+  position: absolute;
+  top: 48%;
+  left: 20%;
+  font-size: 38px;
+
+  text-shadow: 0px 0px 10px black;
+}
+
+.button {
+  position: absolute;
+  top: 46%;
+  left: 70%;
+  background-color: #ff0397;
+  border: 2px solid #0374ff;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.button:hover {
+  color: #0374ff;
+}
+
+.button:active {
+  top: 46.2%;
+  left: 70.1%;
+}
