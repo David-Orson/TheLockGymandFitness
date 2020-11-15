@@ -19,14 +19,12 @@ const Trainers = () => {
 
   return (
     <div id="trainers" class="trainers">
-      <h2>Our Trainers</h2>
+      <h2 className="trainers-title">Our Trainers</h2>
       <div className="trainer-container">
         <Card name="one" body="super cool trainer" img={Trainer1} css={trainer1class}/>
         <Card name="two" body="super cool trainer" img={Trainer2} css={trainer2class}/>
         <Card name="three" body="super cool trainer" img={Trainer3} css={trainer3class}/>
-        <Card name="four" body="super cool trainer" img={Trainer4} css={trainer4class}/>
-      </div>
-      <div className="trainer-container">
+        <Card name="four" body="super cool trainer" img={Trainer4} css={trainer4class}/>      
         <Card name="five" body="super cool trainer" img={Trainer5} css={trainer5class}/>
         {/* <Card name="six" body="super cool trainer" />
         <Card name="seven" body="super cool trainer" /> */}

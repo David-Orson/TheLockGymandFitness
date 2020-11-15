@@ -14,3 +14,13 @@
 
   border-left: 2px solid yellow;
 }
+
+@media screen and (max-width: 800px) {
+  .content {
+    width: 80%;
+    text-align: left;
+    padding: 10px;
+
+    border-left: 2px solid yellow;
+  }
+}

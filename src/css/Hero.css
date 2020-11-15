@@ -1,10 +1,33 @@
 .hero {
-  background: #0374ff;
-  height: 100vh;
+  position: relative;
   overflow: hidden;
+  height: 950px;
 }
 
 .hero-image {
-  width: 100%;
   margin-top: -60px;
+  position: absolute;
+  transition: width 12s linear;
+}
+
+@media screen and (max-width: 800px) {
+  .hero-image {
+    margin-top: 0px;
+  }
+}
+
+.unzoomed {
+  width: 100vw;
+}
+
+.zoomed {
+  width: 135vw;
+}
+
+.rendered {
+  opacity: 100%;
+}
+
+.hidden {
+  opacity: 0%;
 }

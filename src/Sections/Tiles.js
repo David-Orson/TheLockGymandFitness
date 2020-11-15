@@ -12,7 +12,7 @@ const Tiles = () => {
     <div class="tiles">
       <div className="row">
         <div className="box-image">
-          <img src={Barbell} className="tile-image" alt="Free Weights" />
+          <img src={Barbell} className="tile-image1" alt="Free Weights" />
         </div>
         <div className="box-content">
           <h2>Free Weights</h2>
@@ -45,12 +45,12 @@ const Tiles = () => {
           </div>
         </div>
         <div className="box-image">
-          <img src={Machines} className="tile-image" alt="Weight Machines" />
+          <img src={Machines} className="tile-image2" alt="Weight Machines" />
         </div>
       </div>
       <div className="row">
         <div className="box-image">
-          <img src={Cardio} className="tile-image" alt="Cardio Machines" />
+          <img src={Cardio} className="tile-image3" alt="Cardio Machines" />
           </div>
         <div className="box-content">
           <h2>Cardio Machines</h2>
@@ -73,7 +73,7 @@ const Tiles = () => {
           </div>
         </div>
         <div className="box-image">
-        <img src={Sunbed} className="tile-image" alt="Sunbeds" />
+        <img src={Sunbed} className="tile-image4" alt="Sunbeds" />
         </div>
       </div>
     </div>

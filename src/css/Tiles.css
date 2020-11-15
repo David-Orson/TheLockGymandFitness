@@ -6,6 +6,7 @@
 .row {
   display: flex;
   justify-content: center;
+  height: 300px;
 }
 
 .box-image {
@@ -31,7 +32,54 @@
   flex-direction: column;
 }
 
-.tile-image {
-  width: 100%;
+.tile-image1 {
+  height: 160%;
+  margin-top: -150px;
+}
+
+.tile-image2 {
+  height: 160%;
+  margin-top: -150px;
+  margin-left: -15px;
+}
+
+.tile-image3 {
+  height: 250%;
   margin-top: -120px;
+}
+
+.tile-image4 {
+  height: 160%;
+  margin-top: -150px;
+}
+
+@media screen and (max-width: 1400px) {
+  .tile-image1 {
+    height: 160%;
+    margin-top: -150px;
+    margin-left: -100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .row {
+    display: block;
+
+    height: 1000px;
+  }
+
+  .box-image {
+    background: #9ba6b3;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .box-content {
+    background: transparent;
+    width: 100%;
+    height: 500px;
+    color: black;
+    padding: 40px;
+  }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../Assets/logo.PNG";
+import logo from "../Assets/LockLogo1.png";
 
 import "../css/Topline.css";
 

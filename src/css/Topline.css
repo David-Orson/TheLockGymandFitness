@@ -21,3 +21,10 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 550px) {
+  .links {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
