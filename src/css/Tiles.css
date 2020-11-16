@@ -16,20 +16,42 @@
   overflow: hidden;
 }
 
-.box-content {
+.box-content-right {
   background: white;
   width: 50%;
   height: 300px;
   color: black;
   padding: 40px;
+  background: url(../Assets//accents//tile.png);
+}
+.box-content-left {
+  background: white;
+  width: 50%;
+  height: 300px;
+  color: black;
+  padding: 40px;
+  background: url(../Assets//accents//tile2.jpg);
 }
 
-.text-container {
+.text-container-left {
   height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: right;
+  width: 100%;
+  padding-left: 300px;
+}
+
+.text-container-right {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  width: 500px;
 }
 
 .tile-image1 {
@@ -82,4 +104,25 @@
     color: black;
     padding: 40px;
   }
+}
+
+.white {
+  color: white;
+}
+
+.tile-title-right {
+  text-align: right;
+  padding-right: 100px;
+}
+
+.tile-title-left {
+  text-align: left;
+  padding-left: 100px;
+}
+
+.tile-text {
+  padding-top: 20px;
+  font-weight: 500;
+  opacity: 0.8;
+  line-height: 130%;
 }

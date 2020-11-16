@@ -34,7 +34,7 @@ const Hero = () => {
 
       <h2 className="hero-title">The Lock Gym and Fitness</h2>
       <h3 className="tagline2">Worksop Town Centre</h3>
-      <h3 className="tagline">Memberships from just £18.99 a month</h3>
+      <h3 className="tagline">Memberships from just <span className="pink">£18.99</span> a month</h3>
       
       <a className="button">Sign Up</a>
     </div>
