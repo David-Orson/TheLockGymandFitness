@@ -1,4 +1,12 @@
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 200px;
   background: #0374ff;
+}
+
+.copyright-symbol {
+  height: 15px;
 }
