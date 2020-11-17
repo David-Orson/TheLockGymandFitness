@@ -35,7 +35,7 @@
 .hero-title {
   position: absolute;
   top: 40%;
-  left: 19.8%;
+  left: 19.7%;
   font-size: 66px;
 
   text-shadow: 0px 0px 10px black;
@@ -63,17 +63,19 @@
   position: absolute;
   top: 46%;
   left: 70%;
-  background-color: #ff0397;
-  border: 2px solid #0374ff;
-  border-radius: 6px;
-  padding: 10px 15px;
-  font-size: 24px;
+  background-color: #ff039777;
+  border: 2px solid #001288;
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
   font-weight: 600;
   color: white;
+  letter-spacing: 200%;
 }
 
 .button:hover {
-  color: #0374ff;
+  color: white;
+  background-color: #ff0397;
 }
 
 .button:active {

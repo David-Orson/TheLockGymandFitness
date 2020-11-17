@@ -1,10 +1,16 @@
 .trainers {
-  background: #0374ff;
+  background: #ff0397;
+}
+
+.trainers2 {
+  background: #001288;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 50px 50px 100px 50px;
+  width: 100%;
+  padding: 50px 50px 50px 50px;
+  border-radius: 0px 0px 300px 0px;
 }
 
 .trainer-container {

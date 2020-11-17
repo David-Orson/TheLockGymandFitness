@@ -1,18 +1,18 @@
 .gallery {
-  background: white;
+  background: #ff0397;
 
-  color: black;
+  color: white;
   text-align: center;
-  padding: 50px 50px 100px 50px;
+  padding: 40px 0px 0px 0px;
 }
 
 .photo-container {
-  background: #0374ff;
-  border: 2px solid #ff0397;
-  width: 70%;
-  padding: 20px;
+  background: #ff0397;
+
+  width: 100%;
+  padding: 20px 100px 100px 100px;
   color: white;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .dummy {
@@ -20,7 +20,6 @@
   position: relative;
   background: #9ba6b3;
 
-  border: 2px solid white;
   max-height: 779px;
   overflow: hidden;
 }
@@ -32,7 +31,7 @@
 .left-arrow {
   position: absolute;
   height: 50px;
-  color: #0374ff;
+  color: #0022ff;
   text-shadow: 0px 0px 5px black;
   top: 50%;
   left: 1%;
@@ -42,7 +41,7 @@
 .right-arrow {
   position: absolute;
   height: 50px;
-  color: #0374ff;
+  color: #0022ff;
   text-shadow: 0px 0px 5px black;
   top: 50%;
   left: 95%;
@@ -51,7 +50,7 @@
 
 @media screen and (max-width: 1400px) {
   .photo-container {
-    background: #0374ff;
+    background: #0022ff;
     border: 2px solid #ff0397;
     padding: 20px;
     color: white;

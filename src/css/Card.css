@@ -1,21 +1,26 @@
 .card {
   margin: 20px;
   padding: 10px;
-  border: 2px solid #ff0397;
+
   height: 400px;
-  width: 300px;
-  background: white;
+  width: 400px;
+  background: #001288;
   color: black;
   display: flex;
   justify-content: left;
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+  border-radius: 50%;
+  color: white;
 }
 
 .card-image--container {
   overflow: hidden;
   max-width: 250px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
 }
 
 .trainer1 {
@@ -29,12 +34,13 @@
 
 .trainer3 {
   width: 250px;
-  margin-top: -100px;
+  margin-top: -110px;
 }
 
 .trainer4 {
   width: 470px;
   margin-left: -85px;
+  margin-top: -30px;
 }
 
 .trainer5 {

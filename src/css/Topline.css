@@ -5,10 +5,10 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  background: white;
+  background: #ffffffb6;
   height: 80px;
   padding: 10px;
-  box-shadow: 0px 8px 3px #0374ff;
+
   overflow: hidden;
 }
 
@@ -32,4 +32,5 @@
 
 .topline-stripes {
   height: 1300px;
+  opacity: 0.5;
 }

@@ -9,7 +9,7 @@ const About = () => {
       <div className="container">
         <div className="content">
           <h4>Local Worksop Gym</h4>
-          <p>
+          <p className="about-text">
             The Lock Gym and Fitness is a local Worksop Gym in the centre of
             Worksop located close to the town centre and train station. At The
             Lock we are cultivating a friendly atmosphere where we can help our

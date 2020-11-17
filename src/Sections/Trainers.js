@@ -19,6 +19,7 @@ const Trainers = () => {
 
   return (
     <div id="trainers" class="trainers">
+      <div className="trainers2">
       <h2 className="trainers-title">Our Trainers</h2>
       <div className="trainer-container">
         <Card name="one" body="super cool trainer" img={Trainer1} css={trainer1class}/>
@@ -29,6 +30,8 @@ const Trainers = () => {
         {/* <Card name="six" body="super cool trainer" />
         <Card name="seven" body="super cool trainer" /> */}
       </div>
+      </div>
+      
     </div>
   );
 };
