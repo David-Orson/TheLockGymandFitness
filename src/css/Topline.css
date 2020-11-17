@@ -5,22 +5,36 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  background: #ffffffb6;
-  height: 80px;
+  background: #ffffff;
+  height: 100px;
   padding: 10px;
 
   overflow: hidden;
+  transition: all linear 0.3s;
+}
+
+.scrolled {
+  background: #ffffffb6;
+  height: 80px;
 }
 
 .logo {
   min-width: 200px;
+  width: 200px;
   color: black;
+  margin-left: 30px;
 }
 
 .links {
   width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.link {
+  background: none;
+  font-size: 24px;
+  letter-spacing: 3px;
 }
 
 @media screen and (max-width: 550px) {
@@ -31,6 +45,7 @@
 }
 
 .topline-stripes {
-  height: 1300px;
-  opacity: 0.5;
+  width: 1000px;
+  margin-left: -200px;
+  z-index: -1;
 }
