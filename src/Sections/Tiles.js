@@ -51,7 +51,7 @@ const Tiles = () => {
           <div className="text-container-right">
             <p className="tile-text">
               Our cardio machines are adequete for your needs, treadmills,
-              rowing machines, exercise bikes, whatsabikes and stair steppers.
+              rowing machines, exercise bikes, spin bikes and stair steppers.
             </p>
           </div>
         </div>

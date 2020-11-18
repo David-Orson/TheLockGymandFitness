@@ -18,7 +18,7 @@
 .dummy {
   z-index: 0;
   position: relative;
-  background: #9ba6b3;
+  background: #ff0397;
 
   max-height: 779px;
   overflow: hidden;
@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 1400px) {
   .photo-container {
-    background: #0022ff;
+    background: #ff0397;
     border: 2px solid #ff0397;
     padding: 20px;
     color: white;

@@ -25,6 +25,9 @@ const Hero = () => {
     }, 12000)
   }, [imageRender])
 
+
+  
+
   return (
     <div className="hero">
       
@@ -36,7 +39,7 @@ const Hero = () => {
       <h3 className="tagline2">Worksop Town Centre</h3>
       <h3 className="tagline">Memberships from just <span className="pink">£18.99</span> a month</h3>
       
-      <a className="button">SIGN UP</a>
+      <a className="button" >SIGN UP</a>
     </div>
   );
 };

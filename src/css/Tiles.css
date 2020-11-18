@@ -22,7 +22,7 @@
   height: 300px;
   color: black;
   padding: 40px;
-  background: url(../Assets//accents//tile.png);
+  background: url(../Assets//accents//tile.png) no-repeat center;
 }
 .box-content-left {
   background: white;
@@ -30,7 +30,7 @@
   height: 300px;
   color: black;
   padding: 40px;
-  background: url(../Assets//accents//tile2.jpg);
+  background: url(../Assets//accents//tile2.jpg) no-repeat center;
 }
 
 .text-container-left {
@@ -41,7 +41,7 @@
   flex-direction: column;
   text-align: right;
   width: 100%;
-  padding-left: 300px;
+  padding-left: 30%;
 }
 
 .text-container-right {
@@ -51,7 +51,8 @@
   align-items: center;
   flex-direction: column;
   text-align: left;
-  width: 500px;
+
+  padding-right: 40%;
 }
 
 .tile-image1 {
