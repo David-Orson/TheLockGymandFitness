@@ -19,15 +19,22 @@ const Topline = () => {
 
   window.addEventListener('scroll', changeBackground);
 
+  const scrollUp = () => {
+    setTimeout(() => {
+      
+      window.scrollBy(0, -80)
+    }, 10)
+  }
+
   return (
     
     <div class={`topline ${navbar === true ? ('scrolled') : (null)}`}>
       <img className="logo" src={logo} alt="The Lock Gym and Fitness" />
       <div className="links">
-        <a className="link" href="#top">Top</a>
-        <a className="link" href="#about">About</a>
-        <a className="link" href="#trainers">Trainers</a>
-        <a className="link" href="#gallery">Gallery</a>
+        <a className="link" href="#top" onClick={scrollUp} >Top</a>
+        <a className="link" href="#about" onClick={scrollUp} >About</a>
+        <a className="link" href="#trainers" onClick={scrollUp} >Trainers</a>
+        <a className="link" href="#gallery" onClick={scrollUp} >Gallery</a>
         
       </div>
       <img className="topline-stripes" src={Stripes} alt="Pink Stripes" />
