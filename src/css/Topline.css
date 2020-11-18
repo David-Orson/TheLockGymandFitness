@@ -54,11 +54,11 @@
   .topline-stripes {
     margin-left: -800px;
   }
-}
-
-@media screen and (max-width: 550px) {
   .links {
     font-size: 12px;
     font-weight: 600;
   }
+}
+
+@media screen and (max-width: 550px) {
 }

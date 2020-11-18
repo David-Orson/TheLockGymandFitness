@@ -28,7 +28,7 @@ const Tiles = () => {
       </div>
       <div className="row">
         <div className="box-content-left">
-          <h2 className="white tile-title-left">Weight Machines</h2>
+          <h2 className="white tile-title-left tile-title2">Weight Machines</h2>
           <div className="text-container-left">
             <p className="tile-text">
               We have a comprehensive range of weight machines for you to
@@ -47,7 +47,7 @@ const Tiles = () => {
           <img src={Cardio} className="tile-image3" alt="Cardio Machines" />
           </div>
         <div className="box-content-right">
-          <h2 className="white tile-title-right">Cardio Machines</h2>
+          <h2 className="white tile-title-right tile-title3">Cardio Machines</h2>
           <div className="text-container-right">
             <p className="tile-text">
               Our cardio machines are adequete for your needs, treadmills,

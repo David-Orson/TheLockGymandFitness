@@ -32,7 +32,7 @@ const Hero = () => {
     <div className="hero">
       
       <img src={HeroImage} className={`hero-image ${imageRender === 2 ? ('rendered') : ('hidden')} ${imageRender === 2 ? ('unzoomed') : ('zoomed')}`}  alt="The Gym" />
-      <img src={DroneShot} className={`hero-image ${imageRender === 3 ? ('rendered') : ('hidden')} ${imageRender === 3 ? ('unzoomed') : ('zoomed')}`}  alt="The Gym" />
+      <img src={DroneShot} className={`hero-image ${imageRender === 3 ? ('rendered') : ('hidden')} ${imageRender === 3 ? ('drone-unzoomed') : ('drone-zoomed')}`}  alt="The Gym" />
       <img src={Reception} className={`hero-image ${imageRender === 4 ? ('rendered') : ('hidden')} ${imageRender === 4 ? ('unzoomed') : ('zoomed')}`}  alt="The Gym" />
 
       <h2 className="hero-title">The Lock Gym and Fitness</h2>
