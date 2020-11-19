@@ -34,8 +34,17 @@
   color: #0022ff;
   text-shadow: 0px 0px 5px black;
   top: 50%;
-  left: 1%;
+  left: 4px;
   cursor: pointer;
+
+  /* Firefox */
+  top: -moz-calc(50% - 25px);
+  /* WebKit */
+  top: -webkit-calc(50% - 25px);
+  /* Opera */
+  top: -o-calc(50% - 25px);
+  /* Standard */
+  top: calc(50% - 25px);
 }
 
 .right-arrow {
@@ -43,9 +52,26 @@
   height: 50px;
   color: #0022ff;
   text-shadow: 0px 0px 5px black;
-  top: 50%;
-  left: 95%;
+
   cursor: pointer;
+
+  /* Firefox */
+  top: -moz-calc(50% - 25px);
+  /* WebKit */
+  top: -webkit-calc(50% - 25px);
+  /* Opera */
+  top: -o-calc(50% - 25px);
+  /* Standard */
+  top: calc(50% - 25px);
+
+  /* Firefox */
+  left: -moz-calc(100% - 54px);
+  /* WebKit */
+  left: -webkit-calc(100% - 54px);
+  /* Opera */
+  left: -o-calc(100% - 54px);
+  /* Standard */
+  left: calc(100% - 54px);
 }
 
 @media screen and (max-width: 1400px) {
@@ -60,33 +86,8 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .right-arrow {
-    position: absolute;
-    font-size: 80px;
-    color: #0374ff;
-    text-shadow: 0px 0px 5px black;
-    top: 50%;
-    left: 94%;
-    cursor: pointer;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .right-arrow {
-    position: absolute;
-    font-size: 80px;
-    color: #0374ff;
-    text-shadow: 0px 0px 5px black;
-    top: 50%;
-    left: 93%;
-    cursor: pointer;
-  }
-}
-
 @media screen and (max-width: 900px) {
   .photo-container {
-    background: #0374ff;
     border: 2px solid #ff0397;
     padding: 20px;
     color: white;
@@ -96,68 +97,93 @@
   }
 
   .gallery {
-    background: white;
+    background: #ff0397;
 
-    color: black;
     text-align: center;
     padding: 20px 20px 40px 20px;
   }
+}
 
-  .right-arrow {
-    position: absolute;
-    font-size: 80px;
-    color: #0374ff;
-    text-shadow: 0px 0px 5px black;
-    top: 50%;
-    left: 93%;
-    cursor: pointer;
+@media screen and (max-width: 960px) {
+  .photo-container {
+    border: 2px solid #ff0397;
+    padding: 20px;
+    color: white;
+    margin-top: 0px;
+
+    width: 100%;
+  }
+
+  .gallery {
+    background: #ff0397;
+
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .right-arrow {
-    position: absolute;
-    font-size: 80px;
-    color: #0374ff;
-    text-shadow: 0px 0px 5px black;
-    top: 50%;
-    left: 92%;
-    cursor: pointer;
-  }
-}
+@media screen and (max-width: 660px) {
+  .photo-container {
+    border: 2px solid #ff0397;
+    padding: 20px;
+    color: white;
+    margin-top: 0px;
 
-@media screen and (max-width: 600px) {
-  .right-arrow {
-    position: absolute;
-    font-size: 80px;
-    color: #0374ff;
-    text-shadow: 0px 0px 5px black;
-    top: 50%;
-    left: 90%;
-    cursor: pointer;
+    width: 100%;
   }
-}
 
-@media screen and (max-width: 500px) {
-  .right-arrow {
-    position: absolute;
-    font-size: 80px;
-    color: #0374ff;
-    text-shadow: 0px 0px 5px black;
-    top: 50%;
-    left: 88%;
-    cursor: pointer;
+  .gallery {
+    background: #ff0397;
+
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
   }
-}
 
-@media screen and (max-width: 400px) {
-  .right-arrow {
+  .left-arrow {
     position: absolute;
-    font-size: 80px;
-    color: #0374ff;
+    height: 30px;
+    color: #0022ff;
     text-shadow: 0px 0px 5px black;
     top: 50%;
-    left: 86%;
+    left: 1%;
     cursor: pointer;
+
+    /* Firefox */
+    top: -moz-calc(50% - 15px);
+    /* WebKit */
+    top: -webkit-calc(50% - 15px);
+    /* Opera */
+    top: -o-calc(50% - 15px);
+    /* Standard */
+    top: calc(50% - 15px);
+  }
+
+  .right-arrow {
+    position: absolute;
+    height: 30px;
+    color: #0022ff;
+    text-shadow: 0px 0px 5px black;
+
+    cursor: pointer;
+
+    /* Firefox */
+    top: -moz-calc(50% - 15px);
+    /* WebKit */
+    top: -webkit-calc(50% - 15px);
+    /* Opera */
+    top: -o-calc(50% - 15px);
+    /* Standard */
+    top: calc(50% - 15px);
+
+    /* Firefox */
+    left: -moz-calc(100% - 34px);
+    /* WebKit */
+    left: -webkit-calc(100% - 34px);
+    /* Opera */
+    left: -o-calc(100% - 34px);
+    /* Standard */
+    left: calc(100% - 34px);
   }
 }

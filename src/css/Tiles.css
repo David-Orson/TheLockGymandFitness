@@ -1,3 +1,7 @@
+.mobile {
+  display: none;
+}
+
 .tiles {
   color: black;
   text-align: center;
@@ -176,17 +180,43 @@
 }
 
 @media screen and (max-width: 960px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
   .row {
     display: block;
 
-    height: 1000px;
+    height: auto;
+  }
+
+  .box-content-right {
+    background: white;
+    width: 100%;
+    height: 300px;
+    color: black;
+    padding: 40px;
+    background: url(../Assets//accents//tile.png) no-repeat 50% 50%;
+  }
+  .box-content-left {
+    background: white;
+    width: 100%;
+    height: 300px;
+    color: black;
+    padding: 40px;
+    background: url(../Assets//accents//tile2.jpg) no-repeat 43% 50%;
   }
 
   .box-image {
-    background: #9ba6b3;
+    background: none;
     width: 100%;
-    height: 500px;
+    height: auto;
     overflow: hidden;
+    margin-bottom: -10px;
   }
 
   .box-content {
@@ -195,6 +225,35 @@
     height: 500px;
     color: black;
     padding: 40px;
+  }
+
+  .tile-image1 {
+    height: auto;
+    width: 120vw;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .tile-image2 {
+    height: auto;
+    width: 120vw;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .tile-image3 {
+    height: auto;
+    width: 120vw;
+    margin-top: -50px;
+    margin-left: 0px;
+    margin-bottom: -50px;
+  }
+
+  .tile-image4 {
+    height: auto;
+    width: 120vw;
+    margin-top: 0px;
+    margin-left: 0px;
   }
 }
 
@@ -216,4 +275,42 @@
   padding-top: 20px;
   font-weight: 500;
   opacity: 0.8;
+}
+
+@media screen and (max-width: 960px) {
+  .text-container-right {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+
+    padding-right: 30px;
+    padding-top: 40px;
+  }
+
+  .text-container-left {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+
+  .tile-title-right {
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 50px;
+  }
+
+  .tile-title-left {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 50px;
+  }
 }

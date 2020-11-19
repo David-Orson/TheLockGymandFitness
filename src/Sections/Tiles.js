@@ -27,10 +27,11 @@ const Tiles = () => {
         </div>
       </div>
       <div className="row">
-        <div className="box-content-left">
-          <h2 className="white tile-title-left tile-title2">Weight Machines</h2>
-          <div className="text-container-left">
-            <p className="tile-text">
+      
+        <div className="box-content-left desktop">
+          <h2 className="white tile-title-left tile-title2 desktop">Weight Machines</h2>
+          <div className="text-container-left desktop">
+            <p className="tile-text desktop">
               We have a comprehensive range of weight machines for you to
               isolate each muscle group. Our machines are high quality and well
               maintained. We also have two sets of cables and an assisted pull
@@ -41,6 +42,18 @@ const Tiles = () => {
         <div className="box-image">
           <img src={Machines} className="tile-image2" alt="Weight Machines" />
         </div>
+        <div className="box-content-left mobile">
+        <h2 className="white tile-title-left tile-title2 mobile">Weight Machines</h2>
+          <div className="text-container-left mobile">
+            <p className="tile-text mobile">
+              We have a comprehensive range of weight machines for you to
+              isolate each muscle group. Our machines are high quality and well
+              maintained. We also have two sets of cables and an assisted pull
+              up bar.
+            </p>
+          </div>
+        </div>
+        
       </div>
       <div className="row">
         <div className="box-image">
@@ -57,10 +70,10 @@ const Tiles = () => {
         </div>
       </div>
       <div className="row">
-        <div className="box-content-left">
-          <h2 className="white tile-title-left">Sunbeds</h2>
-          <div className="text-container-left">
-            <p className="tile-text">
+        <div className="box-content-left desktop">
+          <h2 className="white tile-title-left desktop">Sunbeds</h2>
+          <div className="text-container-left desktop">
+            <p className="tile-text desktop">
               Our sunbeds have high quality bulbs which will certainly give you
               that summer glow at any time of year!
             </p>
@@ -68,6 +81,15 @@ const Tiles = () => {
         </div>
         <div className="box-image">
         <img src={Sunbed} className="tile-image4" alt="Sunbeds" />
+        </div>
+        <div className="box-content-left mobile">
+          <h2 className="white tile-title-left mobile">Sunbeds</h2>
+          <div className="text-container-left mobile">
+            <p className="tile-text mobile">
+              Our sunbeds have high quality bulbs which will certainly give you
+              that summer glow at any time of year!
+            </p>
+          </div>
         </div>
       </div>
     </div>
