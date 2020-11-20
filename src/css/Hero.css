@@ -144,6 +144,11 @@
     color: white;
     letter-spacing: 200%;
   }
+
+  .button:active {
+    top: 54.2%;
+    left: 80.1%;
+  }
 }
 
 @media screen and (max-width: 1279px) {
@@ -226,6 +231,18 @@
     left: -o-calc(50% - 51.38px);
     /* Standard */
     left: calc(50% - 51.38px);
+  }
+
+  .button:active {
+    top: 80.2%;
+    /* Firefox */
+    left: -moz-calc(50.1% - 51.38px);
+    /* WebKit */
+    left: -webkit-calc(50.1% - 51.38px);
+    /* Opera */
+    left: -o-calc(50.1% - 51.38px);
+    /* Standard */
+    left: calc(50.1% - 51.38px);
   }
 }
 
@@ -325,6 +342,10 @@
     left: -o-calc(50% - 51.38px);
     /* Standard */
     left: calc(50% - 51.38px);
+  }
+
+  .button:active {
+    top: 78.2%;
   }
 }
 
@@ -487,6 +508,19 @@
     left: calc(50% - 35.4px);
 
     margin: none;
+  }
+
+  .button:active {
+    top: 65.2%;
+
+    /* Firefox */
+    left: -moz-calc(50.1% - 35.4px);
+    /* WebKit */
+    left: -webkit-calc(50.1% - 35.4px);
+    /* Opera */
+    left: -o-calc(50.1% - 35.4px);
+    /* Standard */
+    left: calc(50.1% - 35.4px);
   }
 }
 
