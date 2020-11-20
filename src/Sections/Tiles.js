@@ -15,7 +15,7 @@ const Tiles = () => {
           <img src={Barbell} className="tile-image1" alt="Free Weights" />
         </div>
         <div className="box-content-right">
-          <h2 className="white tile-title-right">Free Weights</h2>
+          <h2 className="white tile-title-right tile-title1">Free Weights</h2>
           <div className="text-container-right">
             <p className="tile-text">
               We are well equipped with free weights, boasting two large
@@ -83,7 +83,7 @@ const Tiles = () => {
         <img src={Sunbed} className="tile-image4" alt="Sunbeds" />
         </div>
         <div className="box-content-left mobile">
-          <h2 className="white tile-title-left mobile">Sunbeds</h2>
+          <h2 className="white tile-title-left tile-title4 mobile">Sunbeds</h2>
           <div className="text-container-left mobile">
             <p className="tile-text mobile">
               Our sunbeds have high quality bulbs which will certainly give you
