@@ -4,7 +4,7 @@
 
   height: 400px;
   width: 400px;
-  background: #001288;
+  background: none;
   color: black;
   display: flex;
   justify-content: left;
@@ -55,7 +55,7 @@
 
     height: 300px;
     width: 300px;
-    background: #001288;
+    background: none;
     color: black;
     display: flex;
     justify-content: left;

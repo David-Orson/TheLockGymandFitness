@@ -1,38 +1,35 @@
 .gallery {
-  background: #ff0397;
+  background: white;
 
-  color: white;
+  color: rgba(0, 0, 0, 0.87);
   text-align: center;
-  padding: 40px 0px 0px 0px;
+  padding: 40px 0px 100px 0px;
 }
 
 .photo-container {
-  background: #ff0397;
-
   width: 100%;
-  padding: 20px 100px 100px 100px;
-  color: white;
+  padding: 0px;
+  color: rgba(0, 0, 0, 0.87);
   margin-top: 40px;
 }
 
 .dummy {
   z-index: 0;
   position: relative;
-  background: #ff0397;
 
-  max-height: 779px;
   overflow: hidden;
-}
 
-.gallery-img {
-  width: 100%;
+  max-height: 800px;
 }
 
 .left-arrow {
   position: absolute;
   height: 50px;
-  color: #0022ff;
+
   text-shadow: 0px 0px 5px black;
+  background: #ffffff80;
+  border-radius: 50%;
+
   top: 50%;
   left: 4px;
   cursor: pointer;
@@ -50,8 +47,10 @@
 .right-arrow {
   position: absolute;
   height: 50px;
-  color: #0022ff;
+
   text-shadow: 0px 0px 5px black;
+  background: #ffffff80;
+  border-radius: 50%;
 
   cursor: pointer;
 
@@ -74,12 +73,58 @@
   left: calc(100% - 54px);
 }
 
+.right-arrow:hover {
+  background: white;
+  border-radius: 50%;
+}
+
+.left-arrow:hover {
+  background: white;
+  border-radius: 50%;
+}
+
+.left-arrow:active {
+}
+
+.right-arrow:active {
+}
+
+.gallery-img {
+  width: 100%;
+  margin-top: -300px;
+}
+
+.img4 {
+  margin-top: -500px;
+}
+
+.img6 {
+  margin-top: -700px;
+}
+
+.img13 {
+  margin-top: -900px;
+}
+
+.img16 {
+  margin-top: -200px;
+}
+
+.img {
+}
+
+.img {
+}
+
+.img {
+}
+
 @media screen and (max-width: 1400px) {
   .photo-container {
-    background: #ff0397;
-    border: 2px solid #ff0397;
+    background: #571d3f;
+    border: 2px solid #571d3f;
     padding: 20px;
-    color: white;
+    color: rgba(0, 0, 0, 0.87);
     margin-top: 20px;
 
     width: 80%;
@@ -88,16 +133,16 @@
 
 @media screen and (max-width: 900px) {
   .photo-container {
-    border: 2px solid #ff0397;
+    border: 2px solid #571d3f;
     padding: 20px;
-    color: white;
+    color: rgba(0, 0, 0, 0.87);
     margin-top: 20px;
 
     width: 90%;
   }
 
   .gallery {
-    background: #ff0397;
+    background: #571d3f;
 
     text-align: center;
     padding: 20px 20px 40px 20px;
@@ -106,18 +151,18 @@
 
 @media screen and (max-width: 960px) {
   .photo-container {
-    border: 2px solid #ff0397;
+    border: 2px solid #571d3f;
     padding: 20px;
-    color: white;
+    color: rgba(0, 0, 0, 0.87);
     margin-top: 0px;
 
     width: 100%;
   }
 
   .gallery {
-    background: #ff0397;
+    background: #571d3f;
 
-    color: white;
+    color: rgba(0, 0, 0, 0.87);
     text-align: center;
     padding: 10px 0px 10px 0px;
   }
@@ -125,18 +170,18 @@
 
 @media screen and (max-width: 660px) {
   .photo-container {
-    border: 2px solid #ff0397;
+    border: 2px solid #571d3f;
     padding: 20px;
-    color: white;
+    color: rgba(0, 0, 0, 0.87);
     margin-top: 0px;
 
     width: 100%;
   }
 
   .gallery {
-    background: #ff0397;
+    background: #571d3f;
 
-    color: white;
+    color: rgba(0, 0, 0, 0.87);
     text-align: center;
     padding: 10px 0px 10px 0px;
   }
@@ -144,7 +189,7 @@
   .left-arrow {
     position: absolute;
     height: 30px;
-    color: #0022ff;
+
     text-shadow: 0px 0px 5px black;
     top: 50%;
     left: 1%;
@@ -163,7 +208,7 @@
   .right-arrow {
     position: absolute;
     height: 30px;
-    color: #0022ff;
+
     text-shadow: 0px 0px 5px black;
 
     cursor: pointer;

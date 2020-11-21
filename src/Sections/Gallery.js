@@ -52,13 +52,10 @@ const Gallery = () => {
           <div className="dummy">
             <img src={Prev} className="left-arrow" alt="Previous Image" onClick={prevImage} />
             <img src={Next} className="right-arrow" alt="Next Image" onClick={nextImage} />
-            <img src={imageArray[imageSelector]} className="gallery-img" />
+            <img src={imageArray[imageSelector]} className={`gallery-img img${imageSelector + 1}`} />
             
           </div>
-          {/* <p>
-            Caption asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf
-            asdf asdf asdf
-          </p> */}
+          
         </div>
       </div>
     </div>

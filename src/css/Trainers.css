@@ -1,9 +1,9 @@
 .trainers {
-  background: #ff0397;
+  background: linear-gradient(to bottom right, #001288, #ff0397);
 }
 
 .trainers2 {
-  background: #001288;
+  background: linear-gradient(to bottom right, #001288, #ff0397);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,7 @@
   }
 
   .trainers2 {
-    background: #001288;
+    background: #171f52;
     display: flex;
     justify-content: center;
     align-items: center;

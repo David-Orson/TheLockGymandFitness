@@ -1,5 +1,5 @@
 .about {
-  background: #001288;
+  background: linear-gradient(to right, #ff0397, #001288);
 
   padding: 40px 10px 60px 10px;
 
@@ -12,7 +12,8 @@
   text-align: left;
   padding: 10px;
 
-  border-left: 2px solid yellow;
+  border-left: 2px solid #001288;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 800px) {
@@ -21,7 +22,8 @@
     text-align: left;
     padding: 10px;
 
-    border-left: 2px solid yellow;
+    border-left: 2px solid #001288;
+    border-radius: 5px;
   }
 }
 
@@ -40,7 +42,8 @@
     text-align: left;
     padding: 10px;
 
-    border-left: 2px solid yellow;
+    border-left: 2px solid #001288;
+    border-radius: 5px;
 
     font-size: 16px;
     font-weight: 400;
