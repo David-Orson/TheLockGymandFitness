@@ -1,0 +1,58 @@
+.cta {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, #ff0397, #001288);
+
+  padding: 40px 10px 60px 10px;
+
+  color: white;
+  text-align: center;
+}
+
+.details {
+  width: 250px;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.hours-container {
+  width: 250px;
+}
+
+.cta-text {
+  margin: 0px 30px 0px 0px;
+}
+
+.cta-button {
+  background-color: #ff039777;
+  border: 2px solid #001288;
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 200%;
+  height: 50px;
+  margin: 0px 0px 0px 30px;
+}
+
+.cta-button:hover {
+  color: white;
+  background-color: #ff0397;
+}
+
+.cta-button:active {
+}
+
+.hours {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}

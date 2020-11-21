@@ -6,6 +6,7 @@ import About from "./Sections/About";
 import Tiles from "./Sections/Tiles";
 import Trainers from "./Sections/Trainers";
 import Gallery from "./Sections/Gallery";
+import CTA from "./Sections/CTA"
 import Footer from "./Sections/Footer";
 
 import "./App.css";
@@ -19,6 +20,7 @@ const App = () => {
       <Tiles />
       <Trainers />
       <Gallery />
+      <CTA />
       <Footer />
     </div>
   );
