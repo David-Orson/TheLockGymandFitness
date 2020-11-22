@@ -56,3 +56,25 @@
   justify-content: space-between;
   width: 250px;
 }
+
+@media screen and (max-width: 819px) {
+  .hours-container {
+    margin-top: 40px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .hours-container {
+    margin-top: 40px;
+    width: 250px;
+  }
+
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-top: 40px;
+  }
+}
