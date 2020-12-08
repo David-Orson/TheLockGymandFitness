@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   overflow: hidden;
-  height: 950px;
+  height: 969px;
 }
 
 .hero-image {
@@ -19,7 +19,7 @@
 }
 
 .rendered {
-  opacity: 100%;
+  opacity: 1;
 }
 
 .hidden {

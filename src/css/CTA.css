@@ -43,6 +43,10 @@
   margin: 0px 0px 0px 30px;
 }
 
+.cta-button:visited {
+  color: white;
+}
+
 .cta-button:hover {
   color: white;
   background-color: #ff0397;

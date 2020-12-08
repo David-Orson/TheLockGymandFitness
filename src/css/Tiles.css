@@ -438,6 +438,10 @@
 }
 
 @media screen and (max-width: 450px) {
+  .row {
+    font-size: 13px;
+  }
+
   .tile-image1 {
     height: auto;
     width: 120vw;

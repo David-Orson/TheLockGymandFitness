@@ -15,7 +15,7 @@ const CTA = () => {
     </div>
     <div className="signup-container">
       <p className="cta-text">Ready to begin?</p>
-    <a className="cta-button" >SIGN UP</a>
+    <a className="cta-button" href="https://secure.ashbournemanagement.co.uk/signupUK/index.aspx?fn=GRCK3" target="_blank">SIGN UP</a>
     </div>
     <div className="hours-container">
     <p>Opening Hours</p>
@@ -24,8 +24,8 @@ const CTA = () => {
     <div className="hours"><p>Wednesday:</p><p>06:00 - 21:00</p></div>
     <div className="hours"><p>Thursday:</p><p>06:00 - 21:00</p></div>
     <div className="hours"><p>Friday:</p><p>06:00 - 21:00</p></div>
-    <div className="hours"><p>Saturday:</p><p>06:00 - 21:00</p></div>
-    <div className="hours"><p>Sunday:</p><p>06:00 - 21:00</p></div>
+    <div className="hours"><p>Saturday:</p><p>08:00 - 16:00</p></div>
+    <div className="hours"><p>Sunday:</p><p>09:00 - 14:00</p></div>
     </div>
     
   </div>;
