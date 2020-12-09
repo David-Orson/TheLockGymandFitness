@@ -20,7 +20,7 @@ const Tiles = () => {
             <p className="tile-text">
               We are well equipped with free weights, boasting two large
               dumbbell racks and many barbell plates. Our Dumbbell Racks go from
-              2.5kg to 30kg in 2.5kg increments with dumbbells up to 50kg.
+              2.5kg to 30kg in 2.5kg increments with dumbbells up to 60kg.
             </p>
             <br />
           </div>
@@ -32,7 +32,7 @@ const Tiles = () => {
           <h2 className="white tile-title-left tile-title2 desktop">Weight Machines</h2>
           <div className="text-container-left desktop">
             <p className="tile-text desktop">
-              We have a comprehensive range of weight machines for you to
+              We have a comprehensive range of Life Fitness weight machines for you to
               isolate each muscle group. Our machines are high quality and well
               maintained. We also have two sets of cables and an assisted pull
               up bar.
@@ -46,7 +46,7 @@ const Tiles = () => {
         <h2 className="white tile-title-left tile-title2 mobile">Weight Machines</h2>
           <div className="text-container-left mobile">
             <p className="tile-text mobile">
-              We have a comprehensive range of weight machines for you to
+              We have a comprehensive range of Life Fitness weight machines for you to
               isolate each muscle group. Our machines are high quality and well
               maintained. We also have two sets of cables and an assisted pull
               up bar.
@@ -63,7 +63,7 @@ const Tiles = () => {
           <h2 className="white tile-title-right tile-title3">Cardio Machines</h2>
           <div className="text-container-right">
             <p className="tile-text">
-              Our cardio machines are adequete for your needs, treadmills,
+              Our Life Fitness cardio machines are adequate for your needs, treadmills,
               rowing machines, exercise bikes, spin bikes and stair steppers.
             </p>
           </div>

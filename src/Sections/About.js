@@ -15,8 +15,7 @@ const About = () => {
             Lock we are cultivating a friendly atmosphere where we can help our
             customers achieve their fitness goals! The Lock has recently
             exchanged ownership in July 2020 and we are committed to customer
-            service. We are gym suitable for everyone, we have members from
-            competitive bodybuilders to casual gym goers. Whoever you are, you
+            service. We are gym suitable for the whole family, we have members from 12 years up to 75 years! We focus on Whoever you are, you
             will find a home at The Lock Gym and Fitness.
           </p>
         </div>

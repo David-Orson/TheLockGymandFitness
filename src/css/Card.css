@@ -52,6 +52,10 @@
   width: 250px;
 }
 
+.trainer7 {
+  width: 250px;
+}
+
 @media screen and (max-width: 960px) {
   .card {
     margin: 20px;
@@ -89,8 +93,8 @@
   }
 
   .trainer3 {
-    width: 270px;
-    margin-left: -40px;
+    width: 220px;
+    
   }
 
   .trainer4 {
@@ -107,5 +111,9 @@
   .trainer6 {
     margin-left: -30px;
     margin-top: -10px
+  }
+
+  .trainer7{
+    width: 200px;
   }
 }
