@@ -11,7 +11,7 @@ const About = () => {
           <h4>Local Worksop Gym</h4>
           <p className="about-text">
             The Lock Gym and Fitness is a local Worksop Gym in the centre of
-            Worksop located close to the town centre and train station. At The
+            Worksop located close to the town centre and train station. Our Gym has everything you need to achieve your fitness goals, with multiple weights, Life Fitness weight machines and Life Fitness cardio machines situated over two stories. At The
             Lock we are cultivating a friendly atmosphere where we can help our
             customers achieve their fitness goals! The Lock has recently
             exchanged ownership in July 2020 and we are committed to customer
