@@ -411,7 +411,7 @@
     top: calc(50% + 40px);
   }
 
-  .unzoomed {
+  /* .unzoomed {
     width: 120vw;
   }
 
@@ -425,7 +425,7 @@
 
   .drone-zoomed {
     width: 155vw;
-  }
+  } */
 
   .rendered {
     opacity: 0.6;
